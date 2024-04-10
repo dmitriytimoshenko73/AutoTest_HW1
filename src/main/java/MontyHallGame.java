@@ -1,9 +1,9 @@
 import java.util.Random;
 
 public class MontyHallGame {
-    private int carPosition;
-    private int playerChoice;
-    private Random random;
+    int carPosition;
+    int playerChoice;
+    private static Random random;
 
     public MontyHallGame() {
         random = new Random();
